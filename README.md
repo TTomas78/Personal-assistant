@@ -28,3 +28,12 @@ On this early step I only want to set the basic premisses that I considered to b
 - It will work using an ORM and database migrations (alembic) to create the tables based on the considered
 - There will be initialized by using a script.
 
+## Configuration file
+
+The project works by consuming a config.ini file, the following structure is neccesary:
+
+[DEFAULT] 
+TOKEN = <TELEGRAM TOKEN>
+DB_CONNECTION = <CONNECTION STRING>
+
+if there were missing config, the project will throw an exception
