@@ -32,8 +32,10 @@ On this early step I only want to set the basic premisses that I considered to b
 
 The project works by consuming a config.ini file, the following structure is neccesary:
 
-[DEFAULT] 
-TOKEN = <TELEGRAM TOKEN>
-DB_CONNECTION = <CONNECTION STRING>
+[DEFAULT] -> default enviroment configuration
+
+TOKEN = TELEGRAM-TOKEN
+  
+DB_CONNECTION = CONNECTION-STRING
 
 if there were missing config, the project will throw an exception
