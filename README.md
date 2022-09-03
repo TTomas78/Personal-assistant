@@ -17,7 +17,7 @@ But hopefully all features will be added in the end to conclude the proyect, at 
 - Create grocery list
 - Set reminders
 - Get some statistics (TBD)
-
+- Dockerized
 
 
 ## Documentation
