@@ -8,5 +8,5 @@ from sqlalchemy.types import Boolean
 class BaseModel(declarative_base()):
     __abstract__ = True
 
-    is_active = Column(Boolean(), default=True)
-    is_deleted = Column(Boolean(), default=False)
+    is_active = Column(Boolean(), default=True, nullable=False, server_default='1')
+    is_deleted = Column(Boolean(), default=False, nullable=False, server_default='0')
